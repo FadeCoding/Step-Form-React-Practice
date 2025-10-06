@@ -1,5 +1,31 @@
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Global font styling */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitcount Prop Single Ink', monospace;
+  font-weight: 600;
+}
+
+/* Material-UI TextField styling */
+.MuiTextField-root {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.MuiInputBase-input {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+}
+
+.MuiInputLabel-root {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 500;
 }
 
 .App-logo {
